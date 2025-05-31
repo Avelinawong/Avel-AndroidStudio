@@ -21,4 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "Pertemuan-2"
 include(":app")
+include(":app")
+include(":app")
  

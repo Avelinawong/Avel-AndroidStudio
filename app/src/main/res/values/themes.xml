@@ -2,4 +2,6 @@
 <resources>
 
     <style name="Theme.Pertemuan2" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.CalculatorAPP" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>
