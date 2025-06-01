@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warna utama pink cerah -->
+    <color name="colorPrimary">#D76E92</color>
+    <color name="colorPrimaryDark">#9D2E59</color>
+    <color name="colorAccent">#F2AAC2</color>
+    <color name="textColor">#000000</color>
+
+    <!-- Tema aplikasi -->
+    <style name="Theme.CalculatorAPP" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:fontFamily">@font/alice</item>
+    </style>
+
+    <!-- Gaya untuk header (judul) -->
+    <style name="HeaderText">
+        <item name="android:fontFamily">@font/alice</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">20sp</item> <!-- opsional -->
+    </style>
+</resources>
